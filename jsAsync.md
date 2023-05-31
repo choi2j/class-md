@@ -161,6 +161,7 @@ promise.then((val) => {
 각각 결과는 0과 1이 될 겁니다.
 
 하지만 아직 우리는 await 이 뭔지 잘 모르죠.
+
 await 의 기능은 주어진 Promise 객체가 Fulfilled 또는 Rejected 상태가 될 때까지 기다리는 겁니다.
 
 너무 어려운 말이라고 생각되시면 그냥 async 함수의 결과를 받기 위해서는 await 을 써줘야 한다는 겁니다.
